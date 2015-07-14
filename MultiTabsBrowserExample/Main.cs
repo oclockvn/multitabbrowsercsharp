@@ -110,9 +110,7 @@ namespace MultiTabsBrowserExample
             var browser = GetCurrentBrowser();
             
             if (browser==null)
-            {
                 return;
-            }
 
             try
             {
@@ -121,7 +119,7 @@ namespace MultiTabsBrowserExample
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message,"Navigate Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
         }
 

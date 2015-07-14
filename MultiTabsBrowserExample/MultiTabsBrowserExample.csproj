@@ -92,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="chrome.ico" />
+    <Content Include="readme.html" />
     <None Include="Resources\download.jpg" />
     <None Include="Resources\ic_add_black_18dp.png" />
     <None Include="Resources\ic_arrow_forward_black_18dp.png" />

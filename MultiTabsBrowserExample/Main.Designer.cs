@@ -40,12 +40,12 @@
             this.status = new System.Windows.Forms.ToolStripStatusLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsNewTab = new System.Windows.Forms.ToolStripMenuItem();
             this.tsCloseCurrentTab = new System.Windows.Forms.ToolStripMenuItem();
             this.tsCloseOthers = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.tsExit = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -62,7 +62,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 24);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(872, 47);
+            this.panel1.Size = new System.Drawing.Size(607, 47);
             this.panel1.TabIndex = 0;
             // 
             // btnNext
@@ -99,7 +99,7 @@
             this.btnGo.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnGo.FlatAppearance.BorderSize = 0;
             this.btnGo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGo.Location = new System.Drawing.Point(781, 12);
+            this.btnGo.Location = new System.Drawing.Point(516, 12);
             this.btnGo.Margin = new System.Windows.Forms.Padding(0, 3, 3, 3);
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(75, 20);
@@ -114,7 +114,7 @@
             this.textUrl.Location = new System.Drawing.Point(84, 12);
             this.textUrl.Margin = new System.Windows.Forms.Padding(0, 3, 0, 3);
             this.textUrl.Name = "textUrl";
-            this.textUrl.Size = new System.Drawing.Size(697, 20);
+            this.textUrl.Size = new System.Drawing.Size(432, 20);
             this.textUrl.TabIndex = 0;
             // 
             // panel2
@@ -124,7 +124,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 71);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(872, 340);
+            this.panel2.Size = new System.Drawing.Size(607, 340);
             this.panel2.TabIndex = 1;
             // 
             // Tabs
@@ -133,7 +133,7 @@
             this.Tabs.Location = new System.Drawing.Point(0, 0);
             this.Tabs.Name = "Tabs";
             this.Tabs.SelectedIndex = 0;
-            this.Tabs.Size = new System.Drawing.Size(872, 318);
+            this.Tabs.Size = new System.Drawing.Size(607, 318);
             this.Tabs.TabIndex = 1;
             // 
             // statusStrip1
@@ -142,7 +142,7 @@
             this.status});
             this.statusStrip1.Location = new System.Drawing.Point(0, 318);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(872, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(607, 22);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -159,7 +159,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(872, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(607, 24);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -174,14 +174,6 @@
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "&File";
-            // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsAbout});
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.aboutToolStripMenuItem.Text = "&Help";
             // 
             // tsNewTab
             // 
@@ -217,18 +209,26 @@
             this.tsExit.Size = new System.Drawing.Size(216, 22);
             this.tsExit.Text = "E&xit";
             // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsAbout});
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.aboutToolStripMenuItem.Text = "&Help";
+            // 
             // tsAbout
             // 
             this.tsAbout.Name = "tsAbout";
             this.tsAbout.ShortcutKeys = System.Windows.Forms.Keys.F1;
-            this.tsAbout.Size = new System.Drawing.Size(152, 22);
+            this.tsAbout.Size = new System.Drawing.Size(126, 22);
             this.tsAbout.Text = "A&bout";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(872, 411);
+            this.ClientSize = new System.Drawing.Size(607, 411);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
